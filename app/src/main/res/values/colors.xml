@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="appeal_blue">#2E2E99</color>
+    <color name="fichaya_purple">#121489</color>
+    <color name="fichaya_gold">#DEA000</color>
+    <color name="fichaya_gold_secondary">#DEB81D</color>
+    <color name="fichaya_black">#373737</color>
+    <color name="fichaya_secondary_black">#606077</color>
+
+    <!--Color surface (light), color on error (light), -->
+    <!--color on surface (dark), color on surface (dark)-->
+    <color name="white_50">#ffffff</color>
+
+</resources>

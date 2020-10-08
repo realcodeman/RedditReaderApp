@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.App.CardView"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingHorizontal="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="12dp"
+        android:background="@color/white_50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/scheduleImage"
+            tools:src="@drawable/reddit_alien"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:contentDescription="@string/todo" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textSize="14sp"
+            android:id="@+id/cardTitle"
+            tools:text="MALCOLM GLADWELL"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/fichaya_purple"
+            android:layout_marginTop="3dp"
+            android:layout_marginHorizontal="7dp"
+            app:layout_constraintTop_toTopOf="@id/scheduleImage"
+            app:layout_constraintBottom_toBottomOf="@id/scheduleImage"
+            app:layout_constraintLeft_toRightOf="@id/scheduleImage"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardAuthor"
+            tools:text="8, Yovi Street, Iwaya"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintHorizontal_bias="0"
+            android:textColor="@color/fichaya_black"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textSize="20sp"
+            android:layout_marginTop="7dp"
+            app:layout_constraintTop_toBottomOf="@id/scheduleImage"
+            />
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/cardAuthor"
+            android:textColor="@color/fichaya_secondary_black"
+            android:id="@+id/cardUpdated"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:text="9:00 AM  ·  3HRS  ·  DEEP"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

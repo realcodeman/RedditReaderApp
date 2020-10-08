@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/fichaya_purple</item>
+        <item name="colorPrimaryDark">@color/appeal_blue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Widget.App.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/white_50</item>
+        <item name="strokeColor">#EDEDED</item>
+        <item name="strokeWidth">2dp</item>e
+        <item name="colorOnSurface">@color/white_50</item>
+    </style>
+
+</resources>
